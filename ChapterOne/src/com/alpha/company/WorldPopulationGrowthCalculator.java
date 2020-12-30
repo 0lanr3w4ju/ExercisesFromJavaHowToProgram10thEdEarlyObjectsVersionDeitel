@@ -77,7 +77,7 @@ public class WorldPopulationGrowthCalculator {
         System.out.print("enter time period to calculate for in year(s): ");
         worldPopulationGrowthCalculator.timePeriod = scan.nextInt();
 
-        //logic or formular
+        //logic or formula
         worldPopulationGrowthCalculator.rateOfIncrease = worldPopulationGrowthCalculator.rateOfIncrease(worldPopulationGrowthCalculator.populationGrowthRate);
 
         worldPopulationGrowthCalculator.rateOfIncreaseByTimePeriodInvolved = worldPopulationGrowthCalculator.rateOfIncreaseByTimePeriodInvolved(worldPopulationGrowthCalculator.rateOfIncrease, worldPopulationGrowthCalculator.timePeriod);
