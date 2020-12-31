@@ -11,7 +11,7 @@ public class Account {
 */
 
     //class variables
-    private String name;
+    private final String name;
     private double balance;
 
     //class constructor
@@ -26,10 +26,6 @@ public class Account {
     //class methods
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public double getBalance() {
