@@ -17,9 +17,7 @@ public class LargestAndSmallestIntegers {
 
     //class methods
     public int largestValue(int integerOne, int integerTwo, int integerThree, int integerFour, int integerFive) {
-        if (integerOne > integerTwo) {
-            largest = integerOne;
-        } else largest = integerTwo;
+        largest = Math.max(integerOne, integerTwo);
         if (integerThree > largest) {
             largest = integerThree;
         }
@@ -33,9 +31,7 @@ public class LargestAndSmallestIntegers {
     }
 
     public int smallestValue(int integerOne, int integerTwo, int integerThree, int integerFour, int integerFive) {
-        if (integerOne < integerTwo) {
-            smallest = integerOne;
-        } else smallest = integerTwo;
+        smallest = Math.min(integerOne, integerTwo);
         if (integerThree < smallest) {
             smallest = integerThree;
         }

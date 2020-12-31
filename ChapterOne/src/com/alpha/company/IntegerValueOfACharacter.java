@@ -1,6 +1,9 @@
 package com.alpha.company;
 
 public class IntegerValueOfACharacter {
+//    an application that displays the integer equivalents of some uppercase letters, lowercase letters, digits and special symbols.
+//    Displays the integer equivalents of the following: A B C a b c 0 1 2 $ * + / and the blank character.
+
     public static void main(String[] args) {
         System.out.printf("the character %c has the value %d%n", 'A', ((int) 'A'));
         System.out.printf("the character %c has the value %d%n", 'B', ((int) 'B'));
@@ -17,4 +20,5 @@ public class IntegerValueOfACharacter {
         System.out.printf("the character %c has the value %d%n", '/', ((int) '/'));
         System.out.printf("the character %c has the value %d%n", ' ', ((int) ' '));
     }
+
 }
