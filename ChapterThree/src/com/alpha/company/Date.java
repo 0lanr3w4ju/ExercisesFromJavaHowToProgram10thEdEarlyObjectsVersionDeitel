@@ -26,7 +26,7 @@ public class Date {
     public void setMonth(int month) {
         if ((month > 0) && (month <= 12)) {
             this.month = month;
-        } else System.out.println("###invalid month!");
+        } else System.out.println("###invalid month! default month would be set.");
     }
 
     public int getDay() {
@@ -40,7 +40,7 @@ public class Date {
             this.day = day;
         } else if ((month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) && (day > 0 && day <= 31)) {
             this.day = day;
-        } else System.out.println("###invalid day!");
+        } else System.out.println("###invalid day! default day would be set.");
     }
 
     public int getYear() {
@@ -50,7 +50,7 @@ public class Date {
     public void setYear(int year) {
         if (year >= 1995) {
             this.year = year;
-        } else System.out.println("###invalid year!");
+        } else System.out.println("###invalid year! default year would be set.");
     }
 
     public String displayDate() {
