@@ -33,7 +33,7 @@ public class HeartRatesObject {
         HeartRates heartRates = new HeartRates(firstName, lastName, convertedYearOfBirth, convertedMonthOfBirth, convertedDayOfBirth);
 
         //output
-        JOptionPane.showMessageDialog(null, "first name: "+ heartRates.getFirstName() +"\n" +
+        System.out.println("first name: "+ heartRates.getFirstName() +"\n" +
                 "last name: "+ heartRates.getLastName() +"\n" +
                 "date of birth: "+ heartRates.getDateOfBirth() +"\n" +
                 "age: "+ heartRates.calculateAgeInYears() +" year(s)\n" +

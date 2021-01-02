@@ -19,15 +19,14 @@ public class HeartRates {
     private String lastName;
     private LocalDate dateOfBirth;
 
-    //variables for dateOfBirth variable
-    private int yearOfBirth;
-    private int monthOfBirth;
-    private int dayOfBirth;
-
     //class constructor
     public HeartRates(String firstName, String lastName, int yearOfBirth, int monthOfBirth, int dayOfBirth) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.dateOfBirth = LocalDate.of(yearOfBirth, monthOfBirth, dayOfBirth);
+    }
+
+    public HeartRates (int yearOfBirth, int monthOfBirth, int dayOfBirth) {
         this.dateOfBirth = LocalDate.of(yearOfBirth, monthOfBirth, dayOfBirth);
     }
 
