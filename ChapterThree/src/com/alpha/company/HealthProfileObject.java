@@ -47,7 +47,8 @@ public static void main(String[] args) {
     HeartRates heartRates = new HeartRates(convertedYearOfBirth, convertedMonthOfBirth, convertedDayOfBirth);
 
     //outputs
-    System.out.println("first name: "+ healthProfile.getFirstName() +"\n" +
+    System.out.println("health profile \n" +
+            "first name: "+ healthProfile.getFirstName() +"\n" +
             "last name: "+ healthProfile.getLastName() +"\n" +
             "gender: "+ healthProfile.getGender() +"\n" +
             "date of birth: "+ healthProfile.getDateOfBirth() +"\n" +
