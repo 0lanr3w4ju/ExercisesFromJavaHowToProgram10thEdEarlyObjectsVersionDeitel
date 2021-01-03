@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class HealthProfile {
 /*
-    class attributes include the person’s first name, last name,
+    class attributes include person’s first name, last name,
     gender, date of birth (consisting of separate attributes for
     the month, day and year of birth), height (in inches) and weight
     (in pounds). class has a constructor that receives this data. each
