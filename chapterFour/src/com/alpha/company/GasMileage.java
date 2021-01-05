@@ -1,6 +1,8 @@
 package com.alpha.company;
 
 public class GasMileage {
+    /* Java application that will take input miles driven and gallons used
+    * for each trip */
 
     double milesDriven = 0;
     double gallonsUsed = 0;
