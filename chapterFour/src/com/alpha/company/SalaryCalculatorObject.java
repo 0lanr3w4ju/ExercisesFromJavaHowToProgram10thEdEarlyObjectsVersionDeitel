@@ -39,7 +39,7 @@ public class SalaryCalculatorObject {
             System.out.printf("hours worked: %d%n", salaryCalculator.getHoursWorked());
             System.out.printf("rate per hour: $%d%n", salaryCalculator.getHourlyRate());
             System.out.printf("employee's gross pay: $%.3f%n", employeeGrossPay);
-            System.out.println();
+            System.out.println("#####################################");
         }
     }
 
