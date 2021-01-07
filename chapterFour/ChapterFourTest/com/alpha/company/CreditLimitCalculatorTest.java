@@ -7,13 +7,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class CreditLimitCalculatorTest {
 
     @Test
-    public void testForNewBalanceMethod() {
+    void testForNewBalanceMethod() {
         CreditLimitCalculator creditLimitCalculator = new CreditLimitCalculator();
-        creditLimitCalculator.setCreditLimit(0);
-        creditLimitCalculator.setBalanceAtTheStartOfTheMonth(1);
+        creditLimitCalculator.setBalanceAtTheStartOfTheMonth(4);
         creditLimitCalculator.setTotalItemsChargedByCustomerInAMonth(1);
         creditLimitCalculator.setTotalCreditsAppliedToCustomerAccountInAMonth(1);
-        assertEquals(1, creditLimitCalculator.newBalance());
+        assertEquals(4, creditLimitCalculator.newBalance());
     }
 
 }
