@@ -11,14 +11,14 @@ public class sentinel {
         int gradeTotal = 0;
         double averageOfTotal;
 
-        grade = JOptionPane.showInputDialog("enter grade:");
+        grade = JOptionPane.showInputDialog("enter grade or -1 to end program: ");
         convertedGrade = Integer.parseInt(grade);
 
         while (convertedGrade != -1) {
             gradeTotal += convertedGrade;
             gradeCounter++;
 
-            grade = JOptionPane.showInputDialog("enter grade:");
+            grade = JOptionPane.showInputDialog("enter grade or -1 to end program:");
             convertedGrade = Integer.parseInt(grade);
         }
 
