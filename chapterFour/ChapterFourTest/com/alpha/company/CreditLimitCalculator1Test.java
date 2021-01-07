@@ -30,7 +30,7 @@ class CreditLimitCalculator1Test {
     @Test
     void testToDisplayMessage() {
         CreditLimitCalculator1 creditLimitCalculator1 = new CreditLimitCalculator1(100, 200, 300, 400, 500);
-        assertEquals("within credit limit", creditLimitCalculator1.diplayMessage());
+        assertEquals("within credit limit", creditLimitCalculator1.displayMessage());
     }
 
 }

@@ -40,7 +40,7 @@ public class CreditLimitCalculator1 {
         return creditLimit;
     }
 
-    public String diplayMessage() {
+    public String displayMessage() {
         if (newBalance() > getCreditLimit()) {
             return "credit limit exceeded";
         } else return "within credit limit";

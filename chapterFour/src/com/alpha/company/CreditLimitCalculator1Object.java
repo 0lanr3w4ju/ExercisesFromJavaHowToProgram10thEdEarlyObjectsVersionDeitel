@@ -48,7 +48,7 @@ public class CreditLimitCalculator1Object {
                     "total items charged by customer in a month: $"+ creditLimitCalculator1.getTotalItemsChargedByCustomerInAMonth() +"\n" +
                     "total credits applied to customer account in a month: $"+ creditLimitCalculator1.getTotalCreditsAppliedToCustomerAccountInAMonth() +"\n" +
                     "credit limit: $"+ creditLimitCalculator1.getCreditLimit());
-            System.out.println(creditLimitCalculator1.diplayMessage());
+            System.out.println(creditLimitCalculator1.displayMessage());
             System.out.println("****************************************");
             //how to use the program instruction
             System.out.print("""
