@@ -38,7 +38,7 @@ public class CreditLimitCalculatorObject {
             System.out.printf("total items charged by customer in a month: $%d%n", creditLimitCalculator.getTotalItemsChargedByCustomerInAMonth());
             System.out.printf("total credit applied to customer A/C in a month: $%d%n", creditLimitCalculator.getTotalCreditsAppliedToCustomerAccountInAMonth());
             System.out.printf("customer's credit limit: $%d%n", creditLimitCalculator.getCreditLimit());
-            System.out.println("############################################");
+            System.out.println("0######################1#################++#");
             if (creditLimitCalculator.getCreditLimit() > creditLimitCalculator.newBalance() )
                 System.out.println("credit limit exceeded");
             else System.out.println("within credit limit");
