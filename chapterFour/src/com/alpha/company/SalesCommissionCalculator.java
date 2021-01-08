@@ -2,8 +2,10 @@ package com.alpha.company;
 
 public class SalesCommissionCalculator {
 
+    //class variable
     double value;
 
+    //class methods
     public int items(int item) {
         return item;
     }
