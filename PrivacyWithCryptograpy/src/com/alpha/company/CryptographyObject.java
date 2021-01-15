@@ -14,6 +14,8 @@ public class CryptographyObject {
 
         cryptography.addSevenToDigitAndDivideByTenToGetRemainder();
         cryptography.swapFirstDigitForThirdAndSecondForFourth();
+
+        cryptography.decrypt();
     }
 
 }
