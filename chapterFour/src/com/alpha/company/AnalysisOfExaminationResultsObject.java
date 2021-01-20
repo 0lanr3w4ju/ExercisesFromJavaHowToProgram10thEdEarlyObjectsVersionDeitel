@@ -5,11 +5,14 @@ import java.util.Scanner;
 public class AnalysisOfExaminationResultsObject {
 
     public static void main(String[] args) {
+        //class declarations
         AnalysisOfExaminationResults analysisOfExaminationResults = new AnalysisOfExaminationResults();
         Scanner scan = new Scanner(System.in);
 
+        //class variable
         int counter = 0;
 
+        //counter controlled while loop
         while (counter < 10 ) {
             try {
                 System.out.print("enter student result \n" +
@@ -21,6 +24,7 @@ public class AnalysisOfExaminationResultsObject {
             }
         }
 
+        //outputs
         System.out.println("***************************");
         System.out.printf("passed: %d%nfailed: %d%n", analysisOfExaminationResults.getPass(), analysisOfExaminationResults.getFail());
         if (analysisOfExaminationResults.getPass() > 8) {
