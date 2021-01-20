@@ -42,6 +42,8 @@ public class Time1Object {
 
     private static void displayMessage(String headerMessage, Time1 time) {
         System.out.printf("%s%n universalTimeFormat: %s%n standardTimeFormat: %s%n", headerMessage, time.universalTimeString(), time.standardTimeFormat());
+
+
     }
 
 }
