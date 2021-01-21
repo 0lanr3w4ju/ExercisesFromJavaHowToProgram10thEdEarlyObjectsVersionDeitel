@@ -12,7 +12,7 @@ public class AnalysisOfExaminationResults {
             if (input == 1) {
                 pass++;
             } else fail++;
-        } else throw new IllegalArgumentException("wrong entry, you can only input one or two");
+        } else throw new IllegalArgumentException("wrong entry, you can only input one(1) or two(2)");
     }
 
     public int getPass() {
