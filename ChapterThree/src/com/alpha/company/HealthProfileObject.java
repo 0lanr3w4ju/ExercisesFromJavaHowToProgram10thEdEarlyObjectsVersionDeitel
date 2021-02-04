@@ -14,15 +14,7 @@ public class HealthProfileObject {
 
 public static void main(String[] args) {
     //class variables
-    String firstName;
-    String lastName;
-    String gender;
-    String yearOfBirth;
-    String monthOfBirth;
-    String dayOfBirth;
-    String height;
-    String remainder;
-    String weight;
+    String firstName, lastName, gender, yearOfBirth, monthOfBirth, dayOfBirth, height, remainder, weight;
     int convertedYearOfBirth, convertedMonthOfBirth, convertedDayOfBirth, convertedHeight, convertedRemainder, convertedWeight;
 
     //prompts

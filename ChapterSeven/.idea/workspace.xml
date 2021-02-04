@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d62ed78-3b4c-4b74-bd84-70afe64a3e20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ChapterOne/src/com/alpha/company/company.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChapterOne/src/com/alpha/company/out/production/company/company.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapterFour/ChapterFourTest/com/alpha/company/WorldPopulationGrowthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapterFour/src/com/alpha/company/WorldPopulationGrowth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChapterSeven.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alpha/company/PentaxArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alpha/company/PentaxArrayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChapterThree/src/com/alpha/company/HealthProfileObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChapterThree/src/com/alpha/company/HealthProfileObject.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1n0zSmNRAhB5iLpfmkvH0bFvnQG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PrivacyWithCryptograpy/src/com/alpha/company/EncryptingApplicationObject.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alpha.company" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AnimalObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alpha.company.AnimalObject" />
+      <module name="ChapterSeven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alpha.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alpha.company.DateObject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alpha.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alpha.company.Main" />
+      <module name="ChapterSeven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alpha.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PentaxArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChapterSeven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alpha.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alpha.company" />
+      <option name="MAIN_CLASS_NAME" value="com.alpha.company.PentaxArrayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PentaxArrayTest.passHundredValuesIntoHundredElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChapterSeven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alpha.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alpha.company" />
+      <option name="MAIN_CLASS_NAME" value="com.alpha.company.PentaxArrayTest" />
+      <option name="METHOD_NAME" value="passHundredValuesIntoHundredElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DateObject" />
+      <item itemvalue="Application.AnimalObject" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.PentaxArrayTest" />
+      <item itemvalue="JUnit.PentaxArrayTest.passHundredValuesIntoHundredElement" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AnimalObject" />
+        <item itemvalue="Application.DateObject" />
+        <item itemvalue="JUnit.PentaxArrayTest.passHundredValuesIntoHundredElement" />
+        <item itemvalue="JUnit.PentaxArrayTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d62ed78-3b4c-4b74-bd84-70afe64a3e20" name="Default Changelist" comment="" />
+      <created>1610541800905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610541800905</updated>
+      <workItem from="1610541802199" duration="7211000" />
+      <workItem from="1610615252755" duration="5819000" />
+      <workItem from="1610694677577" duration="48000" />
+      <workItem from="1611741035854" duration="9143000" />
+      <workItem from="1611838197630" duration="270000" />
+      <workItem from="1611924854504" duration="33000" />
+      <workItem from="1611956922095" duration="1710000" />
+      <workItem from="1612245562482" duration="519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
