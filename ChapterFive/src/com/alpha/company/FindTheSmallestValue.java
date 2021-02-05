@@ -7,7 +7,7 @@ public class FindTheSmallestValue {
     * number of values to input from the user */
 
     int setLimit;
-    int smallestValue = Integer.MAX_VALUE;
+    int smallestValue;
 
     public void findSmallestValue(int value){
         if (value < smallestValue){

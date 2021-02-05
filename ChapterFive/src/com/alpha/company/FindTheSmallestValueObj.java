@@ -23,12 +23,17 @@ public class FindTheSmallestValueObj {
         }else {
             while (counter < findTheSmallestValue.setLimit) {
                 System.out.print("enter value: ");
+                int value;
 
                 try {
-                    findTheSmallestValue.findSmallestValue(scan.nextInt());
-                }catch (Exception error){
+                    value = scan.nextInt();
+                }catch (Exception exception) {
                     System.err.println("incorrect value");
+                    break;
                 }
+
+                findTheSmallestValue.findSmallestValue(value);
+
                 counter++;
             }
             System.out.println(findTheSmallestValue.toString());
