@@ -5,7 +5,7 @@ public class AirlineReservationApp {
 
     public final Object[][] seating_position = new Object[10][4];
 
-    HashMap<String, Object> passenger = new HashMap<>();
+    HashMap<String, Object> passenger; // object of new passenger
 
     public void welcome() {
         System.out.print("___welcome to TRAFFIC TRAVELS!___\n" +

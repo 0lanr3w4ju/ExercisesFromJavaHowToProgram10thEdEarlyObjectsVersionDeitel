@@ -1,5 +1,6 @@
 package com.alpha.company;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class AirlineReservationAppDriver {
@@ -27,6 +28,8 @@ public class AirlineReservationAppDriver {
 
                 System.out.print("first name: ");
                 while (scan.hasNext()) { // while loop
+                    airlineReservationApp.passenger = new HashMap<>();
+
                     airlineReservationApp.add_passenger_detail("first name", scan.next());
 
                     System.out.print("last name: ");
@@ -43,9 +46,7 @@ public class AirlineReservationAppDriver {
 
                     System.out.println("saved!");
 
-                    airlineReservationApp.seating_position[y_coordinate][x_coordinate] = airlineReservationApp.passzenger;
-
-                    System.out.println(airlineReservationApp.seating_position[y_coordinate][x_coordinate]); // proof
+                    airlineReservationApp.seating_position[y_coordinate][x_coordinate] = airlineReservationApp.passenger;
 
                     x_coordinate++; // counter to place passengers in seats when adding
 
