@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class AirlineReservationApp {
 
-    public final Object[][] seating_chart = new Object[10][4];
+    public final Object[][] seating_position = new Object[10][4];
 
     HashMap<String, Object> passenger = new HashMap<>();
 
