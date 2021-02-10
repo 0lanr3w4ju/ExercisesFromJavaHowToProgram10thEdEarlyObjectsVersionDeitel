@@ -20,6 +20,7 @@ public class AirlineReservationApp {
                     3 : display available seats
                     4 : choose seat
                     5 : add passenger to the waiting list
+                    6 : to exit program
                     
                     > """);
 
