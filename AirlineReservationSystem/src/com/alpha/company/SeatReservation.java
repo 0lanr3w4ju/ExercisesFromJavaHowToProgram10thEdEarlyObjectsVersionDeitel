@@ -53,7 +53,7 @@ public class SeatReservation {
     public void getNamesFromSeat() {
         for (String[] seats : seating_position) {
             for (String names : seats) {
-                System.out.printf("seat %s holds %s%n", Arrays.toString(seats), names);
+                System.out.println(names);
             }
         }
     }
@@ -80,4 +80,11 @@ public class SeatReservation {
         }
     }
 
+    // this method picks the first added to the waiting list to the vacant seats in seating position
+//    public void moveFromWaitingListToSeatPositionsIfVacant() {
+//        if (seating_position[5][5] == null) {
+//            String passenger = waiting_list[0];
+//            seating_position[5][5] = passenger;
+//        }
+//    }
 }

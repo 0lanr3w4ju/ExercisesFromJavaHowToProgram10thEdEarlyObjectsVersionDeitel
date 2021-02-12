@@ -86,10 +86,8 @@ public class SeatReservationDriver {
                     }
                 } while (choice != 3);
             }
-
+//            seatReservation.moveFromWaitingListToSeatPositionsIfVacant();
         } while (option != 3);
-
-
     }
 
 }
