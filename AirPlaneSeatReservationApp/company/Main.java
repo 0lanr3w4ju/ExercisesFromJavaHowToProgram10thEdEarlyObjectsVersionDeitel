@@ -6,13 +6,13 @@ public class Main {
         WaitingList waitingList = new WaitingList();
 
         passengersDetailsApp.addPassengerDetails("Glory", "Aji", "US");
-        waitingList.addPassengers(passengersDetailsApp.getPassengerDetails());
+        waitingList.addPassengerToWaitList(passengersDetailsApp.getPassengerDetails());
 
         passengersDetailsApp.addPassengerDetails("Blessing", "Aji", "NE");
-        waitingList.addPassengers(passengersDetailsApp.getPassengerDetails());
+        waitingList.addPassengerToWaitList(passengersDetailsApp.getPassengerDetails());
 
         passengersDetailsApp.addPassengerDetails("Mama", "Aji", "US");
-        waitingList.addPassengers(passengersDetailsApp.getPassengerDetails());
+        waitingList.addPassengerToWaitList(passengersDetailsApp.getPassengerDetails());
 
         waitingList.getPassengersOnWaitingList();
     }
