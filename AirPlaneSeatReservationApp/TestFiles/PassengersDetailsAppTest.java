@@ -8,14 +8,14 @@ class PassengersDetailsAppTest {
     void testForAddedPassengerHasFirstName() {
         PassengersDetailsApp passengersDetailsApp = new PassengersDetailsApp();
         passengersDetailsApp.addPassengerDetails("Olanrewaju", "Alawode", "NY");
-        assertEquals("Olanrewaju", passengersDetailsApp.passenger.get("First Name"));
+        assertEquals("OLANREWAJU", passengersDetailsApp.passenger.get("First Name"));
     }
 
     @Test
     void testForAddedPassengerHasLastName() {
         PassengersDetailsApp passengersDetailsApp = new PassengersDetailsApp();
         passengersDetailsApp.addPassengerDetails("Olanrewaju", "Alawode", "NY");
-        assertEquals("Alawode", passengersDetailsApp.passenger.get("Last Name"));
+        assertEquals("ALAWODE", passengersDetailsApp.passenger.get("Last Name"));
     }
 
     @Test

@@ -1,6 +1,6 @@
 public class SeatReservationApp {
 
-    String[][] seats = new String[6][6];
+    public String[][] seats = new String[6][6];
 
     private int row = 0;
     private int column = 0;
