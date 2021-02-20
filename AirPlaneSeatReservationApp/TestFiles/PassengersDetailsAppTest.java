@@ -5,31 +5,23 @@ import static org.junit.jupiter.api.Assertions.*;
 class PassengersDetailsAppTest {
 
     @Test
-    void testForAddedPassengerHasFirstName() {
+    void addPassengerDetails() {
         PassengersDetailsApp passengersDetailsApp = new PassengersDetailsApp();
-        passengersDetailsApp.addPassengerDetails("Olanrewaju", "Alawode", "NY");
-        assertEquals("OLANREWAJU", passengersDetailsApp.passenger.get("First Name"));
+        passengersDetailsApp.addPassengerDetails("Pit", "Arrow", "Ac");
+        assertEquals(passengersDetailsApp.getPassengerDetails(),passengersDetailsApp.getPassengerDetails());
     }
 
     @Test
-    void testForAddedPassengerHasLastName() {
+    void getPassengerDetailWithKey() {
         PassengersDetailsApp passengersDetailsApp = new PassengersDetailsApp();
-        passengersDetailsApp.addPassengerDetails("Olanrewaju", "Alawode", "NY");
-        assertEquals("ALAWODE", passengersDetailsApp.passenger.get("Last Name"));
+        passengersDetailsApp.addPassengerDetails("Pit", "Arrow", "Ac");
+        assertEquals("Pit".toUpperCase(), passengersDetailsApp.getPassengerDetailWithKey("First Name")); //uncomment to make this Test pass
     }
 
     @Test
-    void testForAddedPassengerHasDestination() {
+    void getPassengerDetails() {
         PassengersDetailsApp passengersDetailsApp = new PassengersDetailsApp();
-        passengersDetailsApp.addPassengerDetails("Olanrewaju", "Alawode", "NY");
-        assertEquals("NY", passengersDetailsApp.passenger.get("Destination"));
+        passengersDetailsApp.addPassengerDetails("Pit", "Arrow", "Ac");
+        assertEquals(passengersDetailsApp.getPassengerDetails(), passengersDetailsApp.getPassengerDetails());
     }
-
-    @Test
-    void testForGetPassengerDetailsMethod() {
-        PassengersDetailsApp passengersDetailsApp = new PassengersDetailsApp();
-        passengersDetailsApp.addPassengerDetails("Olanrewaju", "Alawode", "NYC");
-        assertNotNull(passengersDetailsApp.getPassengerDetails());
-    }
-
 }

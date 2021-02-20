@@ -1,40 +1,43 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class SeatReservationAppTest {
 
     @Test
-    void testForSeatsToBeEmptyInitially() {
+    void addPassengerDetailsToSeat() {
+        PassengersDetailsApp passengersDetailsApp = new PassengersDetailsApp();
         SeatReservationApp seatReservationApp = new SeatReservationApp();
-
-        for (int row = 0; row < seatReservationApp.seats.length; ++row)
-            for (int column = 0; column < seatReservationApp.seats[row].length; ++column)
-                assertNull(seatReservationApp.seats[row][column]);
+        WaitingList waitingList = new WaitingList();
+        passengersDetailsApp.addPassengerDetails("Zeze", "OMG!", "NY");
+        seatReservationApp.addPassengerDetailsToSeat(passengersDetailsApp.getPassengerDetails(), waitingList);
+        seatReservationApp.removePassengerDetailsFromSeat(0,0);
     }
 
     @Test
-    void testForAddPassengerDetailsToSeatMethod() {
-        SeatReservationApp seatReservationApp = new SeatReservationApp();
+    void removePassengerDetailsFromSeat() {
         PassengersDetailsApp passengersDetailsApp = new PassengersDetailsApp();
-
-        passengersDetailsApp.addPassengerDetails("Glory", "Aji", "CA");
-        seatReservationApp.addPassengerDetailsToSeat(passengersDetailsApp.getPassengerDetails());
-        assertNotNull(seatReservationApp.seats[0][0]);
+        SeatReservationApp seatReservationApp = new SeatReservationApp();
+        WaitingList waitingList = new WaitingList();
+        passengersDetailsApp.addPassengerDetails("Debby","Smart", "TZ");
+        seatReservationApp.addPassengerDetailsToSeat(passengersDetailsApp.getPassengerDetails(), waitingList);
+        seatReservationApp.displayAvailableSeats(); //available seat before using the remove method
+        seatReservationApp.removePassengerDetailsFromSeat(0,0); // the remove method
+        seatReservationApp.displayAvailableSeats(); //available seat afte using the remove method
     }
 
     @Test
-    void testForPassengerDetailsCantBeAddedToATakenSeat() {
+    void addPassengerFromWaitListToSeat() {
         SeatReservationApp seatReservationApp = new SeatReservationApp();
         PassengersDetailsApp passengersDetailsApp = new PassengersDetailsApp();
-
-        passengersDetailsApp.addPassengerDetails("Glory", "Aji", "CA");
-        seatReservationApp.addPassengerDetailsToSeat(passengersDetailsApp.getPassengerDetails());
-
-        passengersDetailsApp.addPassengerDetails("Olanrewaju", "Alawode", "NYC");
-        seatReservationApp.addPassengerDetailsToSeat(passengersDetailsApp.getPassengerDetails());
-
-        assertEquals(passengersDetailsApp.getPassengerDetails(), seatReservationApp.seats[0][1]);
+        WaitingList waitingList = new WaitingList();
+        passengersDetailsApp.addPassengerDetails("Alex","alex", "AU");
+        waitingList.addPassengerToWaitList(passengersDetailsApp.getPassengerDetails());
+        seatReservationApp.addPassengerFromWaitListToSeat(waitingList);
+        seatReservationApp.displayAvailableSeats();
     }
 
+    @Test
+    void displayAvailableSeats() {
+        SeatReservationApp seatReservationApp = new SeatReservationApp();
+        seatReservationApp.displayAvailableSeats();
+    }
 }

@@ -8,19 +8,31 @@ class WaitingListTest {
     void addPassengerToWaitList() {
         PassengersDetailsApp passengersDetailsApp = new PassengersDetailsApp();
         WaitingList waitingList = new WaitingList();
-
-        passengersDetailsApp.addPassengerDetails("Glory", "Aji", "US");
+        SeatReservationApp seatReservationApp = new SeatReservationApp();
+        passengersDetailsApp.addPassengerDetails("Chibuzor", "Slim", "NJ");
         waitingList.addPassengerToWaitList(passengersDetailsApp.getPassengerDetails());
-        assertNotNull(waitingList.theWaitList[0]);
+        assertFalse(waitingList.checkIfWaitListIsEmpty());
     }
 
     @Test
-    void getPassengersOnWaitingList() {
+    void getNextPassengerOnWaitList() {
         PassengersDetailsApp passengersDetailsApp = new PassengersDetailsApp();
         WaitingList waitingList = new WaitingList();
-
-        passengersDetailsApp.addPassengerDetails("Glory", "Aji", "US");
+        passengersDetailsApp.addPassengerDetails("Seyi", "Fast", "CA");
         waitingList.addPassengerToWaitList(passengersDetailsApp.getPassengerDetails());
-        waitingList.getPassengersOnWaitingList(); // it works if it prints
+        waitingList.getNextPassengerOnWaitList();
+        assertTrue(waitingList.checkIfWaitListIsEmpty());
+    }
+
+    @Test
+    void checkIfWaitListIsEmpty() {
+        WaitingList waitingList = new WaitingList();
+        assertTrue(waitingList.checkIfWaitListIsEmpty());
+    }
+
+    @Test
+    void testToString() {
+        WaitingList waitingList = new WaitingList();
+        assertNotNull(waitingList.toString());
     }
 }
