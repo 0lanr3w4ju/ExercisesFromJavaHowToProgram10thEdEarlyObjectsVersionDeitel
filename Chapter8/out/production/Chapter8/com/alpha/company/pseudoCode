@@ -1,0 +1,17 @@
+create class TicTacToe 
+
+the class contains a private 3-by-3 2D array
+
+use an enum type to rep each cell of the array
+
+the enum constant should be named X, O and empty
+
+constructor should init the board elements to Empty
+
+Wherever the first player moves, place an X in the specified square
+
+and place an O wherever the second player moves to
+
+Each move must be to an empty square. 
+
+After each move, determine whether the game has been won and whether it’s a draw.
