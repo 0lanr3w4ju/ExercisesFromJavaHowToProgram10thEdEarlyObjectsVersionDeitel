@@ -23,12 +23,16 @@ public class TicTacToe {
     public void playerOnesMove(int rowNumber, int columnNumber) {
         if (verifyMoveIsToAnEmptyCell(rowNumber,columnNumber)) {
             board[rowNumber][columnNumber] = cellState.X;
+        } else {
+            System.out.println("error!");
         }
     }
 
     public void playerTwosMove(int rowNumber, int columnNumber) {
         if (verifyMoveIsToAnEmptyCell(rowNumber,columnNumber)) {
             board[rowNumber][columnNumber] = cellState.O;
+        } else {
+            System.out.println("error!");
         }
     }
 

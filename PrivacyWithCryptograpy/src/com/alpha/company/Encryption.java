@@ -10,16 +10,16 @@ public class Encryption {
 
     //class methods
     public void encrypt(int number) {
-        int first = number / 10;
-        break1 = number % 10;
+        int first = number / 10; // ex. 1234/10 || 123.4
+        break1 = number % 10; // ex. 4
 
-        int second = first / 10;
-        break2 = first % 10;
+        int second = first / 10; // ex. 123.4/10 || 12.34
+        break2 = first % 10; // ex. 3.4
 
-        int third = second / 10;
-        break3 = second % 10;
+        int third = second / 10; // ex. 1.234
+        break3 = second % 10; // ex. 2.34
 
-        break4 = third % 10;
+        break4 = third % 10; // ex. 1.234
 
         //add seven to digit
         break4 += 7;
